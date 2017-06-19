@@ -1,0 +1,14 @@
+package com.company;
+
+public class Temperatura {
+
+    public double temperatura;
+    public void setTemperatura(double temperaturaZilei) {
+        this.temperatura = temperaturaZilei;
+    }
+
+    public double conversionfromFtoC () {
+        double convertedTemperatura = 5/9*(this.temperatura-32);
+        return convertedTemperatura;
+    }
+}
