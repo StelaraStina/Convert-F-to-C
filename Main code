@@ -1,0 +1,11 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Temperatura conversionfromFtoC = new Temperatura ();
+        conversionfromFtoC.setTemperatura(50);
+        System.out.println("Temperatura zilei de azi este de: " + conversionfromFtoC + " grade celsius.");
+    }
+}
